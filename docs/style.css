@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=David+Libre');
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  
+  overflow:hidden
+}
+
+.container {
+  width: 80%; 
+  
+  position:relative;
+}
+
+#text{
+/*   font-family:"Shadows Into Light"; */
+  font-family:"David Libre";
+  font-size: 2rem;
+  color: #dedede;
+  text-align: center;
+  height: 0rem;
+  overflow: visable;
+  
+  position: absolute;
+  width: 100%;
+  top: 150%;
+/*   left: 50%; */
+  
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  
+  height: 10rem;
+}
+
+
+.column {
+  width: 11.11%; 
+  aspect-ratio: 1 / 1;
+  
+  box-sizing: border-box;
+  position:relative;
+  
+  margin-top:5rem;
+  margin-bottom:5rem;
+}
+
+.col4{
+  margin-top:0rem;
+  margin-bottom: 10rem;
+}
+
+.glow{
+  width: 1000%;
+  height: 1000%;
+  overflow: visible;
+  
+  position: absolute;
+  top: -450%;
+  left: -450%;
+}
+
+.active .glow{
+
+  
+/*   background: radial-gradient(circle, rgba(255,55,0,0.15) 0%, rgba(255,196,0,0) 50%); */
+  background: radial-gradient(circle, rgba(255,140,77,0.15) 0%, rgba(255,140,77,0.03) 10%, rgba(255,140,77,0) 50%);
+
+}
+
+
+.g0 {
+  animation: AnimFlicker 1500ms infinite 200ms;
+}
+
+.g1 {
+  animation: AnimFlicker 1600ms infinite 300ms;
+}
+
+.g2 {
+  animation: AnimFlicker 1700ms infinite 100ms;
+}
+
+.g3 {
+  animation: AnimFlicker 1800ms infinite 400ms;
+}
+
+.g4 {
+  animation: AnimFlicker 1400ms infinite 0ms;
+}
+
+.g5 {
+  animation: AnimFlicker 1550ms infinite 200ms;
+}
+
+.g6 {
+  animation: AnimFlicker 1650ms infinite 0ms;
+}
+
+.g7 {
+  animation: AnimFlicker 1700ms infinite 200ms;
+}
+
+.g8 {
+  animation: AnimFlicker 1600ms infinite 400ms;
+}
+
+
+
+@keyframes AnimFlicker {
+  0%, 100% {
+    /* width:400% ; */
+    /* height:400%; */
+    opacity: 1.0 ;
+  }
+  10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {
+    /* width: 402% ; */
+    /* height:402%; */
+    opacity: 0.8 ;
+  }
+  15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {
+    /* width: 398% ; */
+    /* height: 398% ; */
+    /*opacity: 0.9 ;*/
+  }
+}
+
+
+.flame{
+  width:100%;
+  height:100%;
+  overflow: visible;
+
+}
+
+/*
+
+.f4{
+  animation: floatAnimationAlt 3s ease-in-out infinite 1s;
+}
+
+@keyframes floatAnimation {
+  0%,100% {
+    transform: translateY(3%);
+  }
+  50% {
+    transform: translateY(-3%);
+  }
+}
+
+@keyframes floatAnimationAlt {
+  0%,100% {
+    transform: translateY(-53%);
+  }
+  50% {
+    transform: translateY(-47%);
+  }
+}
+*/
