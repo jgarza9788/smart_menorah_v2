@@ -25,7 +25,7 @@ rand = function (min, max) {
       console.log(thisDate);
   
       // //for testing
-      
+      /*
       document.getElementById('0').classList.add('active');
       document.getElementById('1').classList.add('active');
       document.getElementById('2').classList.add('active');
@@ -35,7 +35,7 @@ rand = function (min, max) {
       document.getElementById('6').classList.add('active');
       document.getElementById('7').classList.add('active');
       document.getElementById('8').classList.add('active');
-      
+      */
   
   
       document.getElementById('text').textContent = '✡️🕎 Happy Hannukah ✡️🕎';
