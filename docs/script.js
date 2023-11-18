@@ -366,7 +366,7 @@ function allfunctions(){
 
     const currDate = new Date();
     theDate = (currDate.getFullYear() * 10000) + ( (currDate.getMonth()+1)*100 ) + (currDate.getDate()) ;
-    theDate = 20231212;
+    // theDate = 20231212;
 
     console.log(theDate);
 
