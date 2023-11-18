@@ -380,7 +380,7 @@ rand = function (min, max) {
   
   // Call the function to initialize flames for all canvases with the 'flame' class
   doTheFlames();
-  
+  setInterval(doTheFlames, 60000);
   
   
   // function allfunctions(){
