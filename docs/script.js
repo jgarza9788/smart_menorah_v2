@@ -259,31 +259,7 @@ function doTheFlames() {
       }
       
       
-      constructor() {
-//         this.x = canvas.width / 2;
-//         this.y = canvas.height / 2;
-//         this.speed = 2;
-//         this.velocityX = this.speed * (Math.random() - 0.5);
-//         this.velocityY = this.speed * (Math.random() - 0.5);
-//         this.size = Math.random() * 7 + 3;
-        
-//         this.startRadius = rand(1, 25);
-//         this.radius = this.startRadius;
-//         // // this.x = cw/2 + (rand(0, 6) - 3);
-//         // // this.y = 250;      
-//         this.vx = 0;
-//         this.vy = 0;
-//         // // this.hue = rand(globalTick - hueRange, globalTick + hueRange);
-//         this.hue= 25;
-//         this.saturation = rand(50, 100);
-//         this.lightness = rand(20, 70);
-//         this.startAlpha = rand(1, 10) / 100;
-//         this.alpha = this.startAlpha;
-//         this.decayRate = 0.25;  
-//         this.startLife = 7;
-//         this.life = this.startLife;
-//         this.lineWidth = rand(1, 3);
-        
+      constructor() {       
         this.reset();
       }
       
