@@ -74,7 +74,23 @@ body, html {
 
   
 /*   background: radial-gradient(circle, rgba(255,55,0,0.15) 0%, rgba(255,196,0,0) 50%); */
-  background: radial-gradient(circle, rgba(255,140,77,0.15) 0%, rgba(255,140,77,0.03) 10%, rgba(255,140,77,0) 50%);
+  /* background: radial-gradient(
+    circle, 
+  rgba(255,140,77,0.15) 0%, 
+  rgba(255,140,77,0.03) 10%, 
+  rgba(255,140,77,0) 50%
+  ); */
+
+  background: radial-gradient(
+    circle, 
+  rgba(255,140,77,0.15) 0%, 
+  rgba(255,140,77,0.03) 10%, 
+  /* rgba(255,140,77,0.15) 10%,  */
+  /* rgba(255,140,77,0.03) 10.1%,  */
+  rgba(255,140,77,0) 50%
+  );
+
+
 
 }
 
