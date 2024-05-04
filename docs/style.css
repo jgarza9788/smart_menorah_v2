@@ -24,7 +24,8 @@ body, html {
 /*   font-family:"Shadows Into Light"; */
   font-family:"David Libre";
   font-size: 2rem;
-  color: #dedede;
+  /* color: #dedede; */
+  color: #767676;
   text-align: center;
   height: 0rem;
   overflow: visable;
